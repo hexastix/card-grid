@@ -16,10 +16,18 @@
         height: 30vh;
         margin: 1px;
       }
+
+      @media print {
+        img {
+          width: 6.28cm;
+          height: 8.78cm;
+          margin: 0.2mm;
+        }
+      }
     </style>
   </head>
   <body>
-    <nav class="navbar bg-dark" data-bs-theme="dark">
+    <nav class="d-print-none navbar bg-dark" data-bs-theme="dark">
       <div class="container-fluid">
         <div class="d-flex flex-row">
           <span class="navbar-brand">Card Grid</span>
@@ -31,39 +39,19 @@
       <div class="d-flex flex-row">
         <div class="position-relative">
           <img class="invisible"/>
-          <div class="position-absolute top-0 py-5 px-3">
+          <div class="d-print-none position-absolute top-0 py-5 px-3">
             <input type="text" readonly class="form-control" value="Paste image here" />
           </div>
         </div>
         <div class="position-relative">
           <img class="invisible"/>
-          <div class="position-absolute top-0 py-5 px-3">
+          <div class="d-print-none position-absolute top-0 py-5 px-3">
             <input type="text" readonly class="form-control" value="Paste image here" />
           </div>
         </div>
         <div class="position-relative">
           <img class="invisible"/>
-          <div class="position-absolute top-0 py-5 px-3">
-            <input type="text" readonly class="form-control" value="Paste image here" />
-          </div>
-        </div>
-      </div>
-      <div class="d-flex flex-row">
-        <div class="position-relative">
-          <img class="invisible"/>
-          <div class="position-absolute top-0 py-5 px-3">
-            <input type="text" readonly class="form-control" value="Paste image here" />
-          </div>
-        </div>
-        <div class="position-relative">
-          <img class="invisible"/>
-          <div class="position-absolute top-0 py-5 px-3">
-            <input type="text" readonly class="form-control" value="Paste image here" />
-          </div>
-        </div>
-        <div class="position-relative">
-          <img class="invisible"/>
-          <div class="position-absolute top-0 py-5 px-3">
+          <div class="d-print-none position-absolute top-0 py-5 px-3">
             <input type="text" readonly class="form-control" value="Paste image here" />
           </div>
         </div>
@@ -71,19 +59,39 @@
       <div class="d-flex flex-row">
         <div class="position-relative">
           <img class="invisible"/>
-          <div class="position-absolute top-0 py-5 px-3">
+          <div class="d-print-none position-absolute top-0 py-5 px-3">
             <input type="text" readonly class="form-control" value="Paste image here" />
           </div>
         </div>
         <div class="position-relative">
           <img class="invisible"/>
-          <div class="position-absolute top-0 py-5 px-3">
+          <div class="d-print-none position-absolute top-0 py-5 px-3">
             <input type="text" readonly class="form-control" value="Paste image here" />
           </div>
         </div>
         <div class="position-relative">
           <img class="invisible"/>
-          <div class="position-absolute top-0 py-5 px-3">
+          <div class="d-print-none position-absolute top-0 py-5 px-3">
+            <input type="text" readonly class="form-control" value="Paste image here" />
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-row">
+        <div class="position-relative">
+          <img class="invisible"/>
+          <div class="d-print-none position-absolute top-0 py-5 px-3">
+            <input type="text" readonly class="form-control" value="Paste image here" />
+          </div>
+        </div>
+        <div class="position-relative">
+          <img class="invisible"/>
+          <div class="d-print-none position-absolute top-0 py-5 px-3">
+            <input type="text" readonly class="form-control" value="Paste image here" />
+          </div>
+        </div>
+        <div class="position-relative">
+          <img class="invisible"/>
+          <div class="d-print-none position-absolute top-0 py-5 px-3">
             <input type="text" readonly class="form-control" value="Paste image here" />
           </div>
         </div>
